@@ -1,0 +1,14 @@
+﻿Các Bước cấu hình identity:
++ cấu hình program.cs
++tạo dbcontext
++nếu thêm các atribute vào user thì phải thêm 1 class kế thừa identityuser
++dowload các package cần thiết
+
++sau khi chỉnh sửa trong db thêm bảng nào thì phải scafold lên 
++ sau đó update database để đồng bộ migration 
++sau đó thêm thắt sửa gì trong db thì tạo migration rồi update db
+
+
+Lỗi :
++ lỗi ko tìm thấy key : base.OnModelCreating(modelBuilder); thêm dòng này vòa dbcontext dưới 
+hàm onmodelcreate

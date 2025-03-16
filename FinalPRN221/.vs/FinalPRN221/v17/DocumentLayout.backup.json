@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WorkSpace\\.Net\\FinalPRN221\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\migrations\\20250316145127_update_applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\migrations\\20250316145127_update_applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\migrations\\20250316144921_update_another_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\migrations\\20250316144921_update_another_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\models\\applicationdbcontextpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\models\\applicationdbcontextpartial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\finalprn221\\finalprn221\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250316145127_Update_ApplicationUser.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Migrations\\20250316145127_Update_ApplicationUser.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Migrations\\20250316145127_Update_ApplicationUser.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Migrations\\20250316145127_Update_ApplicationUser.cs",
+              "RelativeToolTip": "FinalPRN221\\Migrations\\20250316145127_Update_ApplicationUser.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:52:15.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250316144921_Update_Another_Table.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Migrations\\20250316144921_Update_Another_Table.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Migrations\\20250316144921_Update_Another_Table.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Migrations\\20250316144921_Update_Another_Table.cs",
+              "RelativeToolTip": "FinalPRN221\\Migrations\\20250316144921_Update_Another_Table.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:49:31.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContextPartial.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Models\\ApplicationDbContextPartial.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Models\\ApplicationDbContextPartial.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Models\\ApplicationDbContextPartial.cs",
+              "RelativeToolTip": "FinalPRN221\\Models\\ApplicationDbContextPartial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T14:41:47.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\appsettings.json",
+              "RelativeDocumentMoniker": "FinalPRN221\\appsettings.json",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\appsettings.json",
+              "RelativeToolTip": "FinalPRN221\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T13:10:23.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "FinalPRN221\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T09:50:02.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAcwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T08:56:24.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T08:56:22.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "FinalPRN221\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "FinalPRN221\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T08:50:30.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "FinalPRN221\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:58:12.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Models\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Models\\ApplicationDBContext.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Models\\ApplicationDBContext.cs",
+              "RelativeToolTip": "FinalPRN221\\Models\\ApplicationDBContext.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwCwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:57:36.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Program.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Program.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\Program.cs",
+              "RelativeToolTip": "FinalPRN221\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:55:01.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
