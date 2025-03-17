@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\FinalPRN221.csproj": {}
+    "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\FinalPRN221.csproj": {}
   },
   "projects": {
-    "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\FinalPRN221.csproj": {
+    "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\FinalPRN221.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\FinalPRN221.csproj",
+        "projectUniqueName": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\FinalPRN221.csproj",
         "projectName": "FinalPRN221",
-        "projectPath": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\FinalPRN221.csproj",
+        "projectPath": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\FinalPRN221.csproj",
         "packagesPath": "C:\\Users\\LAPTOP\\.nuget\\packages\\",
-        "outputPath": "D:\\WorkSpace\\.Net\\FinalPRN221\\FinalPRN221\\obj\\",
+        "outputPath": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LAPTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,6 +69,18 @@
               "version": "[8.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
               "target": "Package",
               "version": "[8.0.0, )"
             }

@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FinalPRN221.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(ApplicationDBContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -115,18 +115,16 @@ namespace FinalPRN221.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("ID");
+                        .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Name")
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("AbsentReason", (string)null);
+                    b.ToTable("AbsentReason");
                 });
 
             modelBuilder.Entity("FinalPRN221.Models.Attendance", b =>
@@ -223,87 +221,6 @@ namespace FinalPRN221.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Department", (string)null);
-                });
-
-            modelBuilder.Entity("FinalPRN221.Models.Log", b =>
-                {
-                    b.Property<int>("LogId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("LogID");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LogId"));
-
-                    b.Property<int>("ActionId")
-                        .HasColumnType("int")
-                        .HasColumnName("ActionID");
-
-                    b.Property<string>("Ipadress")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
-                        .HasColumnName("IPAdress");
-
-                    b.Property<int>("LogLevelId")
-                        .HasColumnType("int")
-                        .HasColumnName("LogLevelID");
-
-                    b.Property<string>("Message")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateOnly>("TimeStamp")
-                        .HasColumnType("date");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasMaxLength(450)
-                        .HasColumnType("nvarchar(450)")
-                        .HasColumnName("UserID");
-
-                    b.HasKey("LogId");
-
-                    b.HasIndex("ActionId");
-
-                    b.HasIndex("LogLevelId");
-
-                    b.ToTable("Log", (string)null);
-                });
-
-            modelBuilder.Entity("FinalPRN221.Models.LogAction", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("ID");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("LogAction", (string)null);
-                });
-
-            modelBuilder.Entity("FinalPRN221.Models.LogLevel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("ID");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("LogLevel", (string)null);
                 });
 
             modelBuilder.Entity("FinalPRN221.Models.PayRoll", b =>
@@ -543,8 +460,8 @@ namespace FinalPRN221.Migrations
                     b.HasOne("FinalPRN221.Models.AbsentReason", "AbsentReason")
                         .WithMany("Attendances")
                         .HasForeignKey("AbsentReasonId")
-                        .IsRequired()
-                        .HasConstraintName("FK_Attendance_AbsentReason");
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("FinalPRN221.Models.AttendanceStatus", "Status")
                         .WithMany("Attendances")
@@ -555,25 +472,6 @@ namespace FinalPRN221.Migrations
                     b.Navigation("AbsentReason");
 
                     b.Navigation("Status");
-                });
-
-            modelBuilder.Entity("FinalPRN221.Models.Log", b =>
-                {
-                    b.HasOne("FinalPRN221.Models.LogAction", "Action")
-                        .WithMany("Logs")
-                        .HasForeignKey("ActionId")
-                        .IsRequired()
-                        .HasConstraintName("FK_Log_LogAction");
-
-                    b.HasOne("FinalPRN221.Models.LogLevel", "LogLevel")
-                        .WithMany("Logs")
-                        .HasForeignKey("LogLevelId")
-                        .IsRequired()
-                        .HasConstraintName("FK_Log_LogLevel");
-
-                    b.Navigation("Action");
-
-                    b.Navigation("LogLevel");
                 });
 
             modelBuilder.Entity("FinalPRN221.Models.PayRoll", b =>
@@ -646,16 +544,6 @@ namespace FinalPRN221.Migrations
             modelBuilder.Entity("FinalPRN221.Models.AttendanceStatus", b =>
                 {
                     b.Navigation("Attendances");
-                });
-
-            modelBuilder.Entity("FinalPRN221.Models.LogAction", b =>
-                {
-                    b.Navigation("Logs");
-                });
-
-            modelBuilder.Entity("FinalPRN221.Models.LogLevel", b =>
-                {
-                    b.Navigation("Logs");
                 });
 
             modelBuilder.Entity("FinalPRN221.Models.PayrollStatus", b =>
