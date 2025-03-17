@@ -1,4 +1,4 @@
-// Licensed to the .NET Foundation under one or more agreements.
+﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
@@ -121,6 +121,7 @@ namespace FinalPRN221.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
+                    await _userManager.AddToRoleAsync(user, "EMPLOYEE"); // Gán quyền employee
                     /*  _logger.LogInformation("User created a new account with password.");*/
                     await UserLogExtension.CreateLogUser(user, LogActionIDConst.User_Registered, LogActionNameConst.User_Registered);
 

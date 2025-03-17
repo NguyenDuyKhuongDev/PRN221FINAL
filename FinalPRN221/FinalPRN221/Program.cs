@@ -1,3 +1,4 @@
+using FinalPRN221.Extensions;
 using FinalPRN221.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -10,20 +11,21 @@ using System.Data;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-// Thêm DbContext
+// Thêm DbContext identity
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
     options.UseSqlServer(connectionString));
 
-builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationDBContext>()
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<ApplicationDBContext>()
     .AddDefaultTokenProviders()
-.AddDefaultUI();
+    .AddDefaultUI();
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Identity/Account/Login";
     options.AccessDeniedPath = "/Identity/Account/AccessDenied";
 });
-// ⚡ Cấu hình Serilog để sử dụng bảng mặc định `Logs`
+// Cấu hình Serilog để sử dụng bảng mặc định `Logs`
 Serilog.Log.Logger = new LoggerConfiguration()
     .WriteTo.MSSqlServer(
         connectionString: connectionString,
@@ -41,6 +43,9 @@ builder.Host.UseSerilog(); // Đặt Serilog làm logger mặc định
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+//tao role cho bang identityrole
+var scope = app.Services.CreateScope();
+await GenerateRoles.EnsureRoles(scope.ServiceProvider);
 app.UseStaticFiles();
 app.UseRouting();
 // Cấu hình Middleware

@@ -1,4 +1,4 @@
-// Licensed to the .NET Foundation under one or more agreements.
+﻿// Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
@@ -121,6 +121,7 @@ namespace FinalPRN221.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     /* _logger.LogInformation("User logged in.");*/
+
                     var user = await _userManager.FindByEmailAsync(Input.Email);
                     await UserLogExtension.CreateLogUser(user, LogActionIDConst.User_Login, LogActionNameConst.User_Login);
 

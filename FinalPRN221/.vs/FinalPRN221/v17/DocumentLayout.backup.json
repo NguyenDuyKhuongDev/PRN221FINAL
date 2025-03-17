@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\constants\\logconst\\logactionconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\constants\\logconst\\logactionconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\constants\\logconst\\logactionconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\constants\\logconst\\logactionconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +50,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs*",
+              "RelativeToolTip": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs*",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAwwH0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:13:22.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Program.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Program.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Program.cs",
+              "RelativeToolTip": "FinalPRN221\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T10:15:54.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LogActionConst.cs",
               "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Constants\\LogConst\\LogActionConst.cs",
               "RelativeDocumentMoniker": "FinalPRN221\\Constants\\LogConst\\LogActionConst.cs",
@@ -50,8 +84,7 @@
               "RelativeToolTip": "FinalPRN221\\Constants\\LogConst\\LogActionConst.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwB4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:49:44.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T09:49:44.123Z"
             },
             {
               "$type": "Document",
@@ -61,14 +94,14 @@
               "RelativeDocumentMoniker": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ToolTip": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAIwHwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAIwHsAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T09:48:29.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
