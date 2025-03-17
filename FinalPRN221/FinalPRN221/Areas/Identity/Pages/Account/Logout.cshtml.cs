@@ -4,6 +4,8 @@
 
 using System;
 using System.Threading.Tasks;
+using FinalPRN221.Constants.LogConst;
+using FinalPRN221.Extensions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -16,17 +18,21 @@ namespace FinalPRN221.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly ILogger<LogoutModel> _logger;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public LogoutModel(SignInManager<ApplicationUser> signInManager, ILogger<LogoutModel> logger)
+        public LogoutModel(SignInManager<ApplicationUser> signInManager, ILogger<LogoutModel> logger, UserManager<ApplicationUser> userManager)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _userManager = userManager;
         }
 
         public async Task<IActionResult> OnPost(string returnUrl = null)
         {
             await _signInManager.SignOutAsync();
-            _logger.LogInformation("User logged out.");
+            var user = await _userManager.GetUserAsync(User);
+            await UserLogExtension.CreateLogUser(user, LogActionIDConst.User_Logout, LogActionNameConst.User_Logout);
+            /* _logger.LogInformation("User logged out.");*/
             if (returnUrl != null)
             {
                 return LocalRedirect(returnUrl);

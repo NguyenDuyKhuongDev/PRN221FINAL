@@ -120,9 +120,9 @@ namespace FinalPRN221.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User logged in.");
+                    /* _logger.LogInformation("User logged in.");*/
                     var user = await _userManager.FindByEmailAsync(Input.Email);
-                    await UserLogExtension.CreateLogUser(user);
+                    await UserLogExtension.CreateLogUser(user, LogActionIDConst.User_Login, LogActionNameConst.User_Login);
 
                     return LocalRedirect(returnUrl);
                 }
