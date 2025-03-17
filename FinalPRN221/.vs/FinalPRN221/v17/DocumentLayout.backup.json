@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\extensions\\userlogextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\extensions\\userlogextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\constants\\logconst\\logpropertiesconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\constants\\logconst\\logpropertiesconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\constants\\logconst\\logactionconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\constants\\logconst\\logactionconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\extensions\\seriallogextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\extensions\\seriallogextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|d:\\workspace\\.net\\prn221final\\finalprn221\\finalprn221\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77156D94-5B92-440B-8867-89792595AAC2}|FinalPRN221\\FinalPRN221.csproj|solutionrelative:finalprn221\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,45 +63,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserLogExtension.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Extensions\\UserLogExtension.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Extensions\\UserLogExtension.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Extensions\\UserLogExtension.cs",
+              "RelativeToolTip": "FinalPRN221\\Extensions\\UserLogExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T08:13:57.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogPropertiesConst.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Constants\\LogConst\\LogPropertiesConst.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Constants\\LogConst\\LogPropertiesConst.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Constants\\LogConst\\LogPropertiesConst.cs",
+              "RelativeToolTip": "FinalPRN221\\Constants\\LogConst\\LogPropertiesConst.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T07:06:50.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogActionConst.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Constants\\LogConst\\LogActionConst.cs",
+              "RelativeDocumentMoniker": "FinalPRN221\\Constants\\LogConst\\LogActionConst.cs",
+              "ToolTip": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Constants\\LogConst\\LogActionConst.cs",
+              "RelativeToolTip": "FinalPRN221\\Constants\\LogConst\\LogActionConst.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T07:05:36.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Attendance.cs",
               "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Models\\Attendance.cs",
               "RelativeDocumentMoniker": "FinalPRN221\\Models\\Attendance.cs",
               "ToolTip": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Models\\Attendance.cs",
               "RelativeToolTip": "FinalPRN221\\Models\\Attendance.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA7wCAAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T04:05:47.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ApplicationDBContext.cs",
               "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Models\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "FinalPRN221\\Models\\ApplicationDBContext.cs",
               "ToolTip": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Models\\ApplicationDBContext.cs",
               "RelativeToolTip": "FinalPRN221\\Models\\ApplicationDBContext.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAUwCQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T03:13:40.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SerialLogExtension.cs",
-              "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Extensions\\SerialLogExtension.cs",
-              "RelativeDocumentMoniker": "FinalPRN221\\Extensions\\SerialLogExtension.cs",
-              "ToolTip": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Extensions\\SerialLogExtension.cs",
-              "RelativeToolTip": "FinalPRN221\\Extensions\\SerialLogExtension.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwB8AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T16:22:11.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Program.cs",
               "RelativeDocumentMoniker": "FinalPRN221\\Program.cs",
@@ -101,24 +135,24 @@
               "RelativeToolTip": "FinalPRN221\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwBEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T15:59:27.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T15:59:27.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ToolTip": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeToolTip": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T14:58:26.578Z"
+              "WhenOpened": "2025-03-16T14:58:26.578Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\WorkSpace\\.Net\\PRN221FINAL\\FinalPRN221\\FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "FinalPRN221\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
