@@ -16,6 +16,8 @@ public partial class ApplicationDBContext : IdentityDbContext<ApplicationUser>
     {
     }
 
+    public virtual DbSet<AbsentReason> AbsentReasons { get; set; }
+
     public virtual DbSet<Attendance> Attendances { get; set; }
 
     public virtual DbSet<AttendanceStatus> AttendanceStatuses { get; set; }
@@ -28,13 +30,16 @@ public partial class ApplicationDBContext : IdentityDbContext<ApplicationUser>
 
     public virtual DbSet<Position> Positions { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=MSI\\MSSQLSERVER03;Database=FinalPRN221;User Id=sa;Password=123456;TrustServerCertificate=True;");
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
+        modelBuilder.Entity<AbsentReason>(entity =>
+        {
+            entity.ToTable("AbsentReason");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Name).HasMaxLength(100);
+        });
 
         modelBuilder.Entity<Attendance>(entity =>
         {
@@ -51,6 +56,11 @@ public partial class ApplicationDBContext : IdentityDbContext<ApplicationUser>
             entity.Property(e => e.OverTimeHours).HasColumnType("decimal(2, 2)");
             entity.Property(e => e.StatusId).HasColumnName("StatusID");
             entity.Property(e => e.WorkHours).HasColumnType("decimal(2, 2)");
+
+            entity.HasOne(d => d.AbsentReason).WithMany(p => p.Attendances)
+                .HasForeignKey(d => d.AbsentReasonId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Attendance_AbsentReason");
 
             entity.HasOne(d => d.Status).WithMany(p => p.Attendances)
                 .HasForeignKey(d => d.StatusId)
@@ -113,8 +123,8 @@ public partial class ApplicationDBContext : IdentityDbContext<ApplicationUser>
             entity.Property(e => e.Name).HasMaxLength(100);
         });
 
-        // OnModelCreatingPartial(modelBuilder);
+        /* OnModelCreatingPartial(modelBuilder);*/
     }
 
-    //  partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+    /* private partial void OnModelCreatingPartial(ModelBuilder modelBuilder);*/
 }

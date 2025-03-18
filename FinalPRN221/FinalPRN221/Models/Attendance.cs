@@ -29,6 +29,7 @@ public partial class Attendance
 
     public bool? IsApproved { get; set; }
 
-    public virtual AttendanceStatus Status { get; set; } = null!;
     public virtual AbsentReason AbsentReason { get; set; } = null!;
+
+    public virtual AttendanceStatus Status { get; set; } = null!;
 }

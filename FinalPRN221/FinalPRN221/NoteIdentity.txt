@@ -12,3 +12,6 @@
 Lỗi :
 + lỗi ko tìm thấy key : base.OnModelCreating(modelBuilder); thêm dòng này vòa dbcontext dưới 
 hàm onmodelcreate
++ dbcontext phải kế thừa :IdentityDbContext<ApplicationUser>
++ lỗi không generate được controller thì cứ update phiên bản mấy cái package cao hơn 
+cái package  generatecode là được 
