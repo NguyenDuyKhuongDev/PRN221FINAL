@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using FinalPRN221.Models;
+using Microsoft.AspNetCore.Identity;
 
 public class ApplicationUser : IdentityUser
 {
@@ -10,4 +11,6 @@ public class ApplicationUser : IdentityUser
     public int? PositionId { get; set; }
     public DateTime? StartDate { get; set; }
     public string? AvatarId { get; set; }
+    public Position? Position { get; set; } // Navigation property
+    public Department? Department { get; set; }
 }

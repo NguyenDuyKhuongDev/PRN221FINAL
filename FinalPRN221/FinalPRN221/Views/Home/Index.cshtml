@@ -1,5 +1,14 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+
+    if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+    {
+        Layout = "~/Views/_AdminLayout.cshtml";
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
 }
 
 <div class="text-center">
